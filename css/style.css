@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.hidden {
+  display: none;
+}
+.display {
+  display: block;
+}
+body {
+  background-image: url(https://i1.wp.com/brescia2.it/wp-content/uploads/2019/01/casino-3491252_1280.jpg?fit=1280%2C853);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-size: 60px;
+}
+.container {
+  width: 900px;
+  margin: 200px auto 30px;
+  display: flex;
+}
+.colonna {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  min-height: 260px;
+  margin: 30px 0;
+  padding: 0 10px;
+}
+.colonna img {
+  height: 260px;
+}
+#gioca {
+  font-size: 50px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: lightblue;
+}
